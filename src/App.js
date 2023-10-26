@@ -1,7 +1,7 @@
 import React from 'react';
-import Topo from './componentes/topo'
+import Topo from './componentes/topo/index';
+import FiltroMaster from './componentes/filtro/index';
 import './App.css';
-import FiltroMaster from './componentes/filtro';
 
 function App() {
   return (

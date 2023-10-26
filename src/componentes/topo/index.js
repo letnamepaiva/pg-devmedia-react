@@ -1,6 +1,6 @@
 import React from 'react';
-import banner from '../assets/banner.png';
-import './topo.css';
+import banner from '../../assets/banner.png';
+import './style.css';
 
 export default function Topo() {
   return (
