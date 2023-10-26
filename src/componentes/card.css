@@ -1,0 +1,27 @@
+.lista-de-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  max-width: 100%;
+  border: 1px solid #daa520;
+  margin: 8px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.card-imagem {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.card-info {
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
